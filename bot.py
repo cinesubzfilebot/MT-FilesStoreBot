@@ -85,7 +85,6 @@ async def start(bot: Client, cmd: Message):
             await cmd.reply_text(f"Something went wrong!\n\n**Error:** `{err}`")
 
 
-@Bot.on_message((filters.document | filters.video | filters.audio) & ~filters.edited)
 async def main(bot: Client, message: Message):
     if message.chat.type == "private":
         chat_id = message.from_user.id
