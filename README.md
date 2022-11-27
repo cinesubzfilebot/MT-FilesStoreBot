@@ -16,6 +16,9 @@
 
 
 ##### Deploy
+
+#Railway
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/XdnUWe)
 You can deploy this bot anywhere.
 
 **[Watch Deploying Tutorial...](https://youtu.be/RPs9vz_neXg)**
